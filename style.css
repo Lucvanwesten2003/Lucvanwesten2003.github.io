@@ -124,3 +124,59 @@ p {
 .fotoik {
   border: solid 0.2em black;
 }
+
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
+
+
+
+.vraag1tekst {
+  margin-top: 0.5em;
+}
+
+.vraag1 {
+  float: left;
+  margin-left: 7em;
+}
+
+.vraag1tekstA {
+  margin-top: -1em;
+}
+
+.vraag2tekst {
+  margin-top: 0.5em;
+}
+
+.vraag2 {
+  float: right;
+  margin-right:7em;
+}
+
+.vraag2tekstA {
+  margin-top: -1em;
+}
+
+.vraag3tekst {
+  margin-top: 10em;
+}
+
+.vraag3 {
+  text-align: center;
+}
+
+.vraag3tekstA {
+  margin-top: -1em;
+}
