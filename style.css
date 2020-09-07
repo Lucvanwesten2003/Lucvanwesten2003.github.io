@@ -52,7 +52,7 @@ body {
 
 .tekstvak1 {
    position: fixed;
-   margin-top: 27em;
+   top: 27.5em;
    width: 100%;
    background-color:rgba(255,255, 255, 1);
    text-align: center;
@@ -80,6 +80,9 @@ html {
     font-size: x-small;
     float: left;
     margin-left: 0.2em;
+    position: absolute;
+    bottom: 0;
+
 }
 
 ul {
@@ -179,4 +182,10 @@ tr:nth-child(even) {
 
 .vraag3tekstA {
   margin-top: -1em;
+}
+
+hr {
+  width: 70%;
+  height: 0.1em;
+  background-color: black;
 }
