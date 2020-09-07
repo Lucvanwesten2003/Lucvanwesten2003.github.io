@@ -1,201 +1,201 @@
 body {
-    background: url('codebackground.jpg') no-repeat center fixed ghostwhite; 
-    margin: 0em;
-    background-size: 100% 100%;
-    }
-    
-    .topnav {
-  position: relative;
-  overflow: hidden;
-  background-color: white;
-  border-bottom: 0.1em solid black;
- 
+  background: url('codebackground.jpg') no-repeat center fixed ghostwhite; 
+  margin: 0em;
+  background-size: 100% 100%;
+  }
+  
+  .topnav {
+position: relative;
+overflow: hidden;
+background-color: white;
+border-bottom: 0.1em solid black;
+
 }
 
 .topnav a {
-  float: left;
-  color:black;
-  text-align: center;
-  padding: 0.8em 1em;
-  text-decoration: none;
-  font-size: 1.25em;
-  font-family: sans-serif;
-  
+float: left;
+color:black;
+text-align: center;
+padding: 0.8em 1em;
+text-decoration: none;
+font-size: 1.25em;
+font-family: sans-serif;
+
 }
 
 .topnav a:hover {
-  background-color: black;
-  color: white;
+background-color: black;
+color: white;
 }
 
 .topnav a.active {
-  background-color: black ;
-  color: white ;
+background-color: black ;
+color: white ;
 }
 
 
 
 
 .topnav-centered a {
-  float: none;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+float: none;
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%);
 }
 
 .topnav-right {
-  float: right;
+float: right;
 }
 
 
 
 .tekstvak1 {
-   position: fixed;
-   top: 27.5em;
-   width: 100%;
-   background-color:rgba(255,255, 255, 1);
-   text-align: center;
-   font-weight: bold;
-   color: black;
-   border-top: 0.1em solid black;
-   border-bottom: 0.1em solid black;
-   left: 0;
-   bottom: 0;
-
+ position: absolute;
+ top: 27.5em;
+ width: 100%;
+ background-color:rgba(255,255, 255, 1);
+ text-align: center;
+ font-weight: bold;
+ color: black;
+ border-top: 0.1em solid black;
+ border-bottom: 0.1em solid black;
+ left: 0;
+bottom: 0;
 }
 
 .tekst1 {
-    margin: 1em;
+  margin: 1em;
 }
 
 html { 
-    width: 100%;
-    height: 100%;
-    margin: 0;
-    padding: 0;
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  min-height: 100%;
 }
 
 .copyright {
-    font-size: x-small;
-    float: left;
-    margin-left: 0.2em;
-    position: absolute;
-    bottom: 0;
+  font-size: x-small;
+  float: left;
+  margin-left: 0.2em;
+  position: absolute;
+  bottom: 0;
 
 }
 
 ul {
-  list-style-type: none;
+list-style-type: none;
 }
 
 div.gallery {
-  border: 1px solid #ccc;
-  width: 15em;
-  margin: 1em;
-  text-align: center;
-  display: inline-block;
+border: 1px solid #ccc;
+width: 15em;
+margin: 1em;
+text-align: center;
+display: inline-block;
 }
 
 div.gallery:hover {
-  border: 1px solid #777;
+border: 1px solid #777;
 }
 
 div.gallery img {
-  width: 100%;
-  height: auto;
+width: 100%;
+height: auto;
 }
 
 div.desc {
-  padding: 15px;
-  text-align: center;
-  font-family: sans-serif;
+padding: 15px;
+text-align: center;
+font-family: sans-serif;
 }
 
 li {
-  font-family: sans-serif;
+font-family: sans-serif;
 }
 
 h1, h2 {
-  font-family: sans-serif;
+font-family: sans-serif;
 }
 
 p { 
-  font-family: sans-serif;
+font-family: sans-serif;
 }
 
 .fotoik {
-  border: solid 0.2em black;
+border: solid 0.2em black;
 }
 
 table {
-  font-family: arial, sans-serif;
-  border-collapse: collapse;
-  width: 90%;
-  margin: auto;
-  border: 0.1em solid black;
-  margin-bottom: 2em;
+font-family: arial, sans-serif;
+border-collapse: collapse;
+width: 90%;
+margin: auto;
+border: 0.1em solid black;
+margin-bottom: 2em;
 }
 
 td {
-  border:  0.1em solid black;
-  text-align: left;
-  padding: 8px;
+border:  0.1em solid black;
+text-align: left;
+padding: 8px;
 }
 
 th {
-  background-color: black;
-  color: white;
-  border: 1px solid #dddddd;
-  padding: 8px;
+background-color: black;
+color: white;
+border: 1px solid #dddddd;
+padding: 8px;
 }
 
 tr:nth-child(even) {
-  background-color: #dddddd;
+background-color: #dddddd;
 }
 
 
 
 .vraag1tekst {
-  margin-top: 0.5em;
+margin-top: 0.5em;
 }
 
 .vraag1 {
-  float: left;
-  margin-left: 7em;
+float: left;
+margin-left: 7em;
 }
 
 .vraag1tekstA {
-  margin-top: -1em;
+margin-top: -1em;
 }
 
 .vraag2tekst {
-  margin-top: 0.5em;
+margin-top: 0.5em;
 }
 
 .vraag2 {
-  float: right;
-  margin-right:7em;
+float: right;
+margin-right:7em;
 }
 
 .vraag2tekstA {
-  margin-top: -1em;
+margin-top: -1em;
 }
 
 .vraag3tekst {
-  margin-top: 10em;
+margin-top: 8em;
 }
 
 .vraag3 {
-  text-align: center;
+text-align: center;
 }
 
 .vraag3tekstA {
-  margin-top: -1em;
+margin-top: -1em;
 }
 
 hr {
-  width: 70%;
-  height: 0.1em;
-  background-color: black;
+width: 70%;
+height: 0.1em;
+background-color: black;
 }
