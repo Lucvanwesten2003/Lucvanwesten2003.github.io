@@ -131,12 +131,22 @@ p {
 table {
   font-family: arial, sans-serif;
   border-collapse: collapse;
-  width: 100%;
+  width: 90%;
+  margin: auto;
+  border: 0.1em solid black;
+  margin-bottom: 2em;
 }
 
-td, th {
-  border: 1px solid #dddddd;
+td {
+  border:  0.1em solid black;
   text-align: left;
+  padding: 8px;
+}
+
+th {
+  background-color: black;
+  color: white;
+  border: 1px solid #dddddd;
   padding: 8px;
 }
 
