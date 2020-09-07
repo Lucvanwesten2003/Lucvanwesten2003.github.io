@@ -3,6 +3,7 @@ body {
   margin: 0em;
   background-size: 100% 100%;
   height: 100%;
+
   }
   
   .topnav {
@@ -152,15 +153,17 @@ background-color: #dddddd;
 
 .vraag1tekst {
 margin-top: 0.5em;
+font-size: 1.5em;
 }
 
 .vraag1 {
-float: left;
-margin-left: 7em;
+
 }
 
 .vraag1tekstA {
 margin-top: -1em;
+font-weight: normal;
+font-size: 1.2em;
 }
 
 .vraag2tekst {
@@ -168,8 +171,7 @@ margin-top: 0.5em;
 }
 
 .vraag2 {
-float: right;
-margin-right:7em;
+
 }
 
 .vraag2tekstA {
@@ -177,7 +179,7 @@ margin-top: -1em;
 }
 
 .vraag3tekst {
-margin-top: 10em;
+
 }
 
 .vraag3 {
