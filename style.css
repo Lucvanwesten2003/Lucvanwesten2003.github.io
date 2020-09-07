@@ -145,7 +145,7 @@ border: 1px solid #dddddd;
 padding: 8px;
 }
 
-tr:nth-child(even) {
+tr{
 background-color: #dddddd;
 }
 
