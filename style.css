@@ -193,15 +193,9 @@ background-color: black;
 }
 
 .macawimg {
-  margin-left: 18em;
-  margin-right: 3em;
   border: 3px solid black;
-  float: left;
 }
 
-.tekstvakProffesion {
-
-}
 
 .titelProffesion {
   text-align: center;
@@ -223,4 +217,21 @@ background-color: black;
   display: inline-block;
     *display: inline;
     zoom: 1
+}
+
+.professionTable{
+  font-family: arial, sans-serif;
+border-collapse: collapse;
+width: 80%;
+margin: auto;
+border: 0.1em solid black;
+margin-bottom: 2em;
+}
+
+.theory{
+  max-width: 100%;
+  margin-left: 15%;
+  margin-right: 15%;
+  text-align: center;
+  
 }
