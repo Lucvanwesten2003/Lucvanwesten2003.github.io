@@ -191,3 +191,36 @@ background-color: black;
   height: 27.5em;
   border-bottom: 0.1em solid black;
 }
+
+.macawimg {
+  margin-left: 18em;
+  margin-right: 3em;
+  border: 3px solid black;
+  float: left;
+}
+
+.tekstvakProffesion {
+
+}
+
+.titelProffesion {
+  text-align: center;
+}
+
+.info {
+  list-style-type: disc;
+  display: inline-block;
+    *display: inline;
+    zoom: 1
+}
+
+.technieken {
+  text-align: inherit;
+  list-style-type: disc;
+}
+
+.techniekenDiv {
+  display: inline-block;
+    *display: inline;
+    zoom: 1
+}
